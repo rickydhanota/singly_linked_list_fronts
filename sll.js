@@ -26,7 +26,7 @@ class SLL{
             return this
         }
     }
-    removeNode(val){
+    removeFront(){
         this.head==this.head.next;
         return this
     }
@@ -44,3 +44,4 @@ n3=new Node(14);
 
 console.log(n1.value)
 n1.display()
+sll.front()
